@@ -1,0 +1,6 @@
+game.ReplicatedStorage.RemoteEvent.OnClientEvent:Connect(function()
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "(Risk X)",
+        Text = "(Thanks For Using Our Service [Lius#2100])"
+    })
+end)
